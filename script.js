@@ -26,15 +26,15 @@
 // console.log(num(5,5));
 
 //2 
-// findChar("abbcccddddd", "d")
-// function findChar(text,char){
-//   console.log("найти " + char + ' внутри ' +text);
-//   for (var i = 0; i < text.length; i++){
-//    if (text[i] === char){
-//      console.log(`${char} найден по индексу ${i}`);
-//    }
-//   } 
-// }
+findChar("abbcccddddd", "d")
+function findChar(text,char){
+  console.log("найти " + char + ' внутри ' +text);
+  for (var i = 0; i < text.length; i++){
+   if (text[i] === char){
+     console.log(`${char} найден по индексу ${i}`);
+   }
+  } 
+}
 
 //3
 //  function avg() {
